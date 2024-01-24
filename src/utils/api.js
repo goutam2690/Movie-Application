@@ -13,7 +13,6 @@ export const fetchDataFromApi = async (url, params) => {
             headers,
             params
         })
-        console.log(data)
         return data;
     
     } catch (error) {
